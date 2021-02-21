@@ -35,3 +35,9 @@ let point: { x: number; y: number } = {
 const logNumber: (i: number) => void = (i: number) => {
   console.log(i);
 };
+
+// when to use type annotations:
+// 1. when we declare a variable on one line then initialize it later
+const json = '{"x":10, "y": 20}';
+const coordinates: { x: number; y: number } = JSON.parse(json); // JSON.parse returns any, because the resulting javascript that it returns can be any type. We therefore have to define the type of coordinates
+console.log(coordinates.y); // {x: 10, y: 20}
