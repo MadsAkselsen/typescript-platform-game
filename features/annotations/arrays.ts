@@ -1,0 +1,1 @@
+const carMarkers: string[] = [];
