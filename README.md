@@ -1,3 +1,3 @@
 # typescript-practice-ZtM
 
-Practicing TypeScript
+Practicing TypeScript through ZtM
