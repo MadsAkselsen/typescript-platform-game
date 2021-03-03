@@ -12,10 +12,11 @@ pepsi[0] = 'newColor';
 
 type Drink = [string, boolean, number]; // this is not an array, but a type
 
-const pepsi: Drink = ['brown', true, 40]; // this is the same as the above pepsi variable
+//const pepsi: Drink = ['brown', true, 40]; // this is the same as the above pepsi variable
 const sprite: Drink = ['yellow', true, 30];
 const tea: Drink = ['brown', false, 0];
 
+// difference between tuble and object. shows how difficult the values of tubles are to understand. In objects the values are mapped to keys
 const carSpecs: [number, number] = [400, 3354];
 
 const carStats = {
