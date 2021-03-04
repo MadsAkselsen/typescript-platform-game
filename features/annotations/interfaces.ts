@@ -15,7 +15,7 @@ const oldCivic = {
 };
 
 const printVehicle = (vehicle: Vehicle): void => {
-  console.log(vehicle.summary);
+  console.log(vehicle.summary());
 };
 
 printVehicle(oldCivic);
