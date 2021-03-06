@@ -1,4 +1,4 @@
-// the below code is for demonstration purposes. Normally, type annotations won't be used when both the variable and value are initiaized on the same line - that's where we want to rely on inference
+/* // the below code is for demonstration purposes. Normally, type annotations won't be used when both the variable and value are initiaized on the same line - that's where we want to rely on inference
 
 // when to use type annotations:
 // 1. when we declare a variable on one line then initialize it later
@@ -61,3 +61,4 @@ for (let i = 0; i < numbers.length; i++) {
     numberAboveZero = numbers[i];
   }
 }
+ */

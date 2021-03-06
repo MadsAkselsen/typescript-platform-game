@@ -1,4 +1,4 @@
-class Vehicle {
+/* class Vehicle {
   // adding 'public' to the parameter is the same adding that value as a property to the class
   // This also causes the constructor to be automatically called in child classes - even though the
   // child classes don't have a constructor.
@@ -30,3 +30,4 @@ class Car extends Vehicle {
 
 const car = new Car(4, 'red');
 car.startDrivingProcess();
+ */

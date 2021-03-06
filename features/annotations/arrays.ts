@@ -1,4 +1,4 @@
-const carMakers: string[] = [];
+/* const carMakers: string[] = [];
 const dates = [new Date(), new Date()];
 
 let carsByMake: string[][];
@@ -21,3 +21,4 @@ carMakers.map((car: string): string => {
 const importantDates = [new Date(), '2030-10-10'];
 importantDates.push('2030-10.10');
 importantDates.push(new Date());
+ */

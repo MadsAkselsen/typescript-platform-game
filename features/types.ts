@@ -1,4 +1,4 @@
-const today = new Date();
+/* const today = new Date();
 
 today.getMonth();
 
@@ -9,3 +9,4 @@ const person = {
 class Color {}
 
 const red = new Color();
+ */
