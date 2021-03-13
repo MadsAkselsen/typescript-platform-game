@@ -1,4 +1,5 @@
 import * as faker from 'faker';
+import { Mappable } from './CustomMap';
 
 // 'implements' sets aup a requirement that User must satisfy Mappable.
 // this is not neccesary. It just makes debugging typescript easier.
