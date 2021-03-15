@@ -1,5 +1,6 @@
 class Node {
-  next: Node | null;
+  next: Node | null = null;
+
   constructor(public data: number) {}
 }
 
@@ -48,19 +49,20 @@ export class LinkedList {
       if (counter === index) {
         return node;
       }
-      node = node.next;
+
       counter++;
+      node = node.next;
     }
+
     throw new Error('Index out of bounds');
   }
+
   compare(leftIndex: number, rightIndex: number): boolean {
     if (!this.head) {
       throw new Error('List is empty');
     }
 
-    if (this.at(leftIndex).data > this.at(rightIndex).data) {
-      return true;
-    }
+    return this.at(leftIndex).data > this.at(rightIndex).data;
   }
 
   swap(leftIndex: number, rightIndex: number): void {
@@ -84,3 +86,4 @@ export class LinkedList {
     }
   }
 }
+
