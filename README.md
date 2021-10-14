@@ -1,3 +1,2 @@
-# typescript-practice-ZtM
+# webpack-typescript-nodemon-setup
 
-Practicing TypeScript through ZtM
