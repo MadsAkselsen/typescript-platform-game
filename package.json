@@ -14,15 +14,14 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/MadsAkselsen/nasa-apod.git"
+        "url": "git+https://github.com/MadsAkselsen/typescript-platform-game.git"
     },
     "keywords": [],
     "author": "",
     "license": "ISC",
     "bugs": {
-        "url": "https://github.com/MadsAkselsen/nasa-apod/issues"
+        "url": "https://github.com/MadsAkselsen/typescript-platform-game/issues"
     },
-    "homepage": "https://MadsAkselsen.github.io/nasa-apod",
     "devDependencies": {
         "@types/faker": "^5.1.7",
         "css-loader": "^5.0.1",
